@@ -3,7 +3,7 @@ import { Image, StyleSheet, Dimensions } from 'react-native';
 
 import Texto from '../../../componentes/Texto';
 
-import topo from '../../../../assets/topo.png';
+import topo from '../../../../assets/logoifce.png';
 
 const width = Dimensions.get('screen').width;
 
@@ -25,7 +25,7 @@ const estilos = StyleSheet.create({
     textAlign: "center",
     fontSize: 16,
     lineHeight: 26,
-    color: "white",
+    color: "black",
     fontWeight: "bold",
     padding: 16,
   },
